@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <div>
+        <input id="result" type="text" style="height: 300px;width: 100%;font-size:xx-large;text-align:right;">
+    </div>
+    <div class="c1">
+        <div class="c2"><button onclick="AllClear()" class="p1"><h1>AC</h1></button></div>
+        <div class="c2"><button onclick="del()" class="p1"><h1>DEL</h1></button></div>
+        <div class="c2"><button onclick="displayData('%')" class="p1"><h1>%</h1></button></div>
+        <div class="c2"><button onclick="displayData('/')" class="p1"><h1>/</h1></button></div>
+        <div class="c2"><button onclick="displayData(7)" class="p1"><h1>7</h1></button></div>
+        <div class="c2"><button onclick="displayData(8)" class="p1"><h1>8</h1></button></div>
+        <div class="c2"><button onclick="displayData(9)" class="p1"><h1>9</h1></button></div>
+        <div class="c2"><button onclick="displayData('*')" class="p1"><h1>*</h1></button></div>
+        <div class="c2"><button onclick="displayData(4)" class="p1"><h1>4</h1></button></div>
+        <div class="c2"><button onclick="displayData(5)" class="p1"><h1>5</h1></button></div>
+        <div class="c2"><button onclick="displayData(6)" class="p1"><h1>6</h1></button></div>
+        <div class="c2"><button onclick="displayData('-')" class="p1"><h1>-</h1></button></div>
+        <div class="c2"><button onclick="displayData(1)" class="p1"><h1>1</h1></button></div>
+        <div class="c2"><button onclick="displayData(2)" class="p1"><h1>2</h1></button></div>
+        <div class="c2"><button onclick="displayData(3)" class="p1"><h1>3</h1></button></div>
+        <div class="c2"><button onclick="displayData('+')" class="p1"><h1>+</h1></button></div>
+        <div class="c2"><button onclick="displayData('00')" class="p1"><h1>00</h1></button></div>
+        <div class="c2"><button onclick="displayData(0)" class="p1"><h1>0</h1></button></div>
+        <div class="c2"><button onclick="displayData('.')" class="p1"><h1>.</h1></button></div>
+        <div class="c2"><button onclick="evaluateRes()" class="p1 eq"><h1>=</h1></button></div>
+
+    </div>
+</div>
+</body>
+<script src="./calc.js"></script>
+</html>
